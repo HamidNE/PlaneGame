@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+#wrapper {
+    display: flex;
+    height: 100vh;
+    background: #ccc;
+    align-items: center;
+    justify-content: center;
+}
+
+#main {
+    width: 300px;
+    height: 450px;
+    padding: 1rem;
+    background: #fff;
+    position: relative;
+    border-radius: 4px;
+}
+
+#bord {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#bord > .row {
+    width: 300px;
+    height: 30px;
+    display: flex;
+}
+
+#bord > .row > .col {
+    width: 30px;
+    height: 30px;
+}
+
+#plane {
+    bottom: 1rem;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: calc(120px + 1rem);
+}
